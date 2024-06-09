@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(140deg,rgb(15, 14, 14),rgb(19, 18, 18));
+    background: linear-gradient(140deg,Black,black);
 }
 .calculator{
     padding:20px;
@@ -18,15 +18,15 @@ form input{
     width: 60px;
     height: 60px;
     font-size:  16px;
-    background-color: rgb(89, 89, 151);
+    background-color: rgba(206, 26, 26, 0.545);
     margin:2px;
     border-radius: 10px;
-    color: white;
+    color: Black;
     font-weight: bolder;
     cursor: pointer;
 }
 form input[type="button"]:hover{
-    background-color: rgb(30, 31, 31);
+    background-color: gray;
 }
     
 form .display{
@@ -39,7 +39,7 @@ form .display input{
     flex: 1;
     font-size: 40px;
     padding: 5px 10px;
-    background-color: rgb(33, 28, 28);
+    background-color: gray;
 }
 form input.equal{
     width:123px;

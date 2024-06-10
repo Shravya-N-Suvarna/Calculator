@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(140deg,Black,black);
+    background: linear-gradient(140deg,Black,green);
 }
 .calculator{
     padding:20px;
